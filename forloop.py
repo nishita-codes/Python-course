@@ -4,6 +4,9 @@ for i in range(5):
     print(i)
 
 
+for i in range(1 , 12 , 3):
+    print(i)
+
 # for loop with list
 fruits = ["apple", "banana", "cherry"]
 for f in fruits:
