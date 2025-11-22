@@ -11,5 +11,23 @@ if age>= 18:
     print("you are eligible to vote")
 else:
     print("you are not eligible to vote") 
+
+
+    # ELIF STATEMENT:
+    num = 65
+    if num<0:
+        print("num is negative")
+    elif (num == 0):
+     print("number is zero")
+    else:
+       print("number is positive")
     
-    
+    #NESTED IF
+    num = 10 
+    if num>=0:
+       if num == 0:
+          print("number is zero")
+       else:
+          print("number is positive")
+    else:
+       print("number is negative")
