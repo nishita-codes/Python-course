@@ -53,7 +53,7 @@ print(name.replace("java" , "python"))
 
 
 # 4.split()
-data = "apple,banana,graps,mango"
+data = "apple banana graps mango"
 print(data.split(","))
 
 # 5.join()
@@ -64,6 +64,24 @@ print("-".join(data))
 name1= "nishita"
 age = 21
 print(f"My name is {name1} and i am {age} year old")
+
+#count()
+name = "nishita"
+print(name.count("i"))
+
+#endswith() -----> checks if the string ends with the given value if yes then return true else return false
+str = "Welcome to the Console !!!"
+print(str.endswith("!!!"))
+
+
+#find() ---> searches for the fist occurence of the given value and return the index else return -1
+str = "Welcome to the Console !!!"
+print(str.find("Console"))
+
+#title() ----> capitalize each letter of the word within the string
+str="welcome to the console"
+print(str.title())
+
 
    
 
