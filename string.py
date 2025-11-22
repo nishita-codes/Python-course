@@ -23,8 +23,9 @@ print(name[3])
 
 # string slice
 name = "nishita"
-print(name[0:5])
+print(name[0:5]) # including 0 but not 5
 print(name[0:4])
+print(name[-4:-2]) # hi
 
 # string concatenation
 text = "nishita"
