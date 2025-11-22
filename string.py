@@ -26,13 +26,46 @@ name = "nishita"
 print(name[0:5])
 print(name[0:4])
 
-# strin concatenation
+# string concatenation
 text = "nishita"
 name = "raghav"
 print(text + name)
 
 # repetitin
-print("hi" * 3)
+print("hi " * 3)
+
+
+# FUNCTIONS IN STRING
+# 1.upper() , lower() 
+name = "Nishita"
+print(name.upper())
+print(name.lower())
+
+
+# 2.strip()--->remove spaces
+name = "    nishita    "
+print(name.strip())
+
+# 3.replace()
+name = " i love java "
+print(name.replace("java" , "python"))
+
+
+# 4.split()
+data = "apple,banana,graps,mango"
+print(data.split(","))
+
+# 5.join()
+data = ["a" , "b" ,"c"]
+print("-".join(data))
+
+# f-string *********imp
+name1= "nishita"
+age = 21
+print(f"My name is {name1} and i am {age} year old")
+
+   
+
 
 
 
