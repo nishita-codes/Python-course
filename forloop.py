@@ -17,6 +17,8 @@ for char in name:
 # for loop with dictionary
 student = {"name": "nishita" , "age" : 21 , "city" : "delhi"}
 for key in student:
-    print(key ,":", student[key])     
+    print(key ,":", student[key])    
+
+     
                 
 
