@@ -15,3 +15,4 @@ calculateGmean(a,b)
 c = 9
 d =  2
 calculateGmean(c,d)
+
